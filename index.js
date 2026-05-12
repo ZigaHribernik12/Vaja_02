@@ -30,6 +30,14 @@ export default {
       })
     }
 
+    if (url.pathname === "/api/student"){
+      return Response.json({
+        shool: "Vsš Velenje",
+        program: informatika,
+        year:2
+      })
+    }
+
   if (url.pathname === "/api/quote") {
     try {
       const res = await fetch("https://zenquotes.io/api/random")
