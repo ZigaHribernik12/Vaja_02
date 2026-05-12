@@ -32,8 +32,8 @@ export default {
 
     if (url.pathname === "/api/student"){
       return Response.json({
-        shool: "Vsš Velenje",
-        program: informatika,
+        shool: "VSŠ Velenje",
+        program: "informatika",
         year:2
       })
     }
